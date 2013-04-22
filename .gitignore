@@ -1,5 +1,5 @@
-/storage/*
-!.empty
+#/storage/*
+#!.empty
 
 *.zip
 *.rar
