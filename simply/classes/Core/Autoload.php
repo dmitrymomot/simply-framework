@@ -206,7 +206,7 @@ class Autoload {
     public function find_class($file_name)
     {
 		$file_name = DIRECTORY_SEPARATOR.$this->_class_dir.DIRECTORY_SEPARATOR.$file_name;
-echo $file_name;
+
 		foreach($this->_paths as $path)
 		{
 			if (is_file($path.$file_name))
