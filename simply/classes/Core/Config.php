@@ -7,5 +7,8 @@ namespace Core;
  */
 class Config {
 
-
+	public static function test()
+	{
+		return 'работает!';
+	}
 }
